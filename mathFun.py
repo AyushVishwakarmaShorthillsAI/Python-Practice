@@ -16,6 +16,8 @@ print(math.exp(2))
 print('factorial of 4:')
 print(math.factorial(4))
 
+# ----------------------------------------------------------------------------
+
 # constants in maths
 
 print('the constants in maths :')
@@ -24,3 +26,12 @@ print(math.pi)
 print(math.nan)
 print(math.inf)
 print(math.e)
+
+
+# ----------------------------------------------------------------------------
+
+# exponentiation in python
+# for power use " ** "
+w=2**4
+print('power operator in python is **(double asterik) use it: ')
+print(w)
