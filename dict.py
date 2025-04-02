@@ -36,10 +36,20 @@ print(myDict)
 myDict.popitem()
 print(myDict)
 
+
 print(myDict.get('c'))
+# this is similar to directly writing below
+print(myDict['c'])
+print('.get(key) == dict[key]')
 
 myDict.pop('c')
 print(myDict)
 
+
 print(myDict.values())
 print(myDict.keys())
+
+# to add a new value to dict 
+# simply do 
+myDict['newVal']=['Ayush', 'Adarsh', 'Golu']
+print(myDict)
