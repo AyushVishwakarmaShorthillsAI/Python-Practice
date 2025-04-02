@@ -49,3 +49,12 @@ print(x)
 print("now adding 2 at the second position :")
 x.insert(1, 2)     # insert(pos, ele)
 print(x)
+
+
+# -----------------------------------------------------------------
+# Unpacking of a list 
+# IMP->requires same number of variables
+
+l2=[1,2,3,4,5]
+a,b,c,d,e=l2
+print(a, b, c, d, e)
