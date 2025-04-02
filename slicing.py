@@ -13,3 +13,6 @@ print(d)
 # negative steps => traverse form right to left
 e=a[::-1]
 print(e)
+
+f=a[2:5:-1]
+print(f)
