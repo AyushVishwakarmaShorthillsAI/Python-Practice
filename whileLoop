@@ -1,0 +1,18 @@
+
+# cool terminal commands
+
+import subprocess
+
+# while True can be used as an infinite loop against a condition to break out of it
+while True:
+    
+    print("Want to run cool terminal commands, enter any of below as input : {'cmatrix', 'sl', asciiquarium', 'neofetch'}")
+    command = input("Enter a command (or 'exit' to quit): ")
+
+    if command.lower() == "exit":
+        break                     # Stop the loop if user enters 'exit'
+
+    try:
+        subprocess.run(command, shell=True, check=True)
+    except subprocess.CalledProcessError:
+        print(f"Error executing: {command}")
